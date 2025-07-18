@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: telegram-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    region: oregon
+    plan: free
+    runtime: python
+    pythonVersion: 3.11
